@@ -1,5 +1,11 @@
+import UseTransition from "./UseTransition";
+
 function App() {
-  return <></>;
+  return (
+    <main>
+      <UseTransition />
+    </main>
+  );
 }
 
 export default App;
