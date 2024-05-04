@@ -1,4 +1,5 @@
 import SteopForwardRef from "./StopForwardRef";
+import UseWrapper from "./Use";
 import UseTransition from "./UseTransition";
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
       <hr />
 
       <SteopForwardRef />
+
+      <hr />
+      <UseWrapper />
     </main>
   );
 }
