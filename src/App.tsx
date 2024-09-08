@@ -1,3 +1,4 @@
+import ContextAsAProvider from "./ContextAsAProvider";
 import SteopForwardRef from "./StopForwardRef";
 import UseWrapper from "./Use";
 import UseOptimistic from "./UseOptimistic";
@@ -19,6 +20,12 @@ function App() {
       <hr />
 
       <UseOptimistic />
+
+      <hr />
+
+      <ContextAsAProvider>
+        <ContextAsAProvider.Children />
+      </ContextAsAProvider>
     </main>
   );
 }
